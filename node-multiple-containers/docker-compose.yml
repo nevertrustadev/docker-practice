@@ -1,6 +1,6 @@
 version: '3'
 services:
-  reddis-server:
+  redis-server:
     image: 'redis'
   node-app:
     build: .
